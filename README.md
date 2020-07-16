@@ -16,4 +16,3 @@ Short, one-a-day sketches with [Paper.js](http://paperjs.org/)
 
 ![IMG 20200715_0](./images/20200715_0.png)
 20200715
-s
