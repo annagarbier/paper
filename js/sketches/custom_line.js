@@ -1,4 +1,8 @@
-// nsegments, offset, width
+// custom_line accepts an object containing line specs,
+// and draws a corresponding line with a few custom
+// features like a bit of wobbly-ness for a hand-drawn
+// feeling.
+
 function custom_line(specs) {
   // Store relevant variables
   var delta_x = specs.Point_b.x - specs.Point_a.x;
