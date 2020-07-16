@@ -70,8 +70,8 @@ function custom_line(specs) {
 for (var k = 0; k < 2; k++) {
   for (var j = 1; j < 5; j++) {
     for (var i = 1; i < 8; i++) {
-      this_width = 175;
-      this_height = 100;
+      this_width = 170;
+      this_height = 140;
       x = (window.innerWidth / 8) * i - this_width / 2;
       y = (window.innerHeight / 5) * j - this_height / 2;
 
