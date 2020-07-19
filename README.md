@@ -2,7 +2,7 @@
 
 Short, one-a-day sketches with [Paper.js](http://paperjs.org/)
 
-![IMG 20200718_0](./images/20200710_0.png)
+![IMG 20200718_0](./images/2020078_0.png)
 20200718
 
 <br>
