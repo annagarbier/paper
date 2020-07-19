@@ -1,6 +1,4 @@
-// Today's sketch - ten horizontal black lines
-horizontal();
-
+// Today's sketch - colorful grid of lines
 function horizontal() {
   for (var j = 0; j < 10; j++) {
     for (var i = 0; i < 50; i++) {
@@ -35,6 +33,8 @@ function horizontal() {
     }
   }
 }
+
+horizontal();
 
 // Common utils
 function custom_line(specs) {
