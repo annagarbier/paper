@@ -1,7 +1,7 @@
 # Paper
 
-> Short, one-a-day sketches with [Paper.js](http://paperjs.org/)
-> Total: 12 sketches
+_Short, one-a-day sketches with [Paper.js](http://paperjs.org/)_<br>
+_Total: 12 sketches_
 
 ![IMG 20200720_1](./images/20200721_0.png)
 20200721
