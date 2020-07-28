@@ -41,6 +41,7 @@ for (var i = 0; i < elements.length - 1; i++) {
   var intersection = elements[0].intersect(elements[i + 1]);
   intersection.strokeColor = black;
   intersection.strokeWidth = 1;
+  intersection.fillColor = black;
 }
 
 // Background - toggle for black background
