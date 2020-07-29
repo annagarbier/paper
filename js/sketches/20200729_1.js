@@ -27,11 +27,12 @@ for (var i = 0; i < 5; i++) {
   });
 }
 
-for (var x = 0; x < window.innerWidth; x += 3) {
+var slant = 0;
+for (var x = 0; x < window.innerWidth; x += 5) {
   for (var y = 0; y < window.innerHeight; y += 60) {
     custom_line({
-      Point_a: new Point(x, y + 1),
-      Point_b: new Point(x + 20, y + 60),
+      Point_a: new Point(x, y),
+      Point_b: new Point(x + slant, y + 60),
       nsegments: 4,
       wobble: 0.5,
       stroke_width: 2,
@@ -40,6 +41,7 @@ for (var x = 0; x < window.innerWidth; x += 3) {
       dash: false,
     });
   }
+  slant += 0.8;
 }
 
 // Background
@@ -56,9 +58,9 @@ var mask = bg;
 for (var i = 0; i < elements.length; i++) {
   mask = mask.subtract(elements[i]);
 }
-mask.strokeColor = white;
+mask.strokeColor = black;
 mask.strokeWidth = 1;
-mask.fillColor = black;
+mask.fillColor = white;
 mask.bringToFront();
 
 /* COMMON **********************************************************/
