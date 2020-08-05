@@ -20,14 +20,14 @@ var elements = [];
 // Texture 0
 var texture0 = new Group();
 rcolor = sampleArray(colors);
-for (var x = 0; x < window.innerWidth; x += 3) {
+for (var x = 0; x < window.innerWidth; x += 2) {
   for (var y = 0; y < window.innerHeight; y += 60) {
     custom_line({
       Point_a: new Point(x, y + 1),
       Point_b: new Point(x + 30, y + 60),
       nsegments: 20,
-      wobble: 20,
-      stroke_width: 0.15,
+      wobble: 25,
+      stroke_width: 0.1,
       stroke_color: rcolor,
       stroke_cap: 'round',
       dash: false,
@@ -39,14 +39,14 @@ for (var x = 0; x < window.innerWidth; x += 3) {
 // Texture 1
 var texture1 = new Group();
 rcolor = sampleArray(colors);
-for (var x = 0; x < window.innerWidth; x += 3) {
+for (var x = 0; x < window.innerWidth; x += 2) {
   for (var y = 0; y < window.innerHeight + 60; y += 60) {
     custom_line({
       Point_a: new Point(x, y),
       Point_b: new Point(x + 30, y + 60),
       nsegments: 20,
-      wobble: 20,
-      stroke_width: 0.15,
+      wobble: 25,
+      stroke_width: 0.1,
       stroke_color: rcolor,
       stroke_cap: 'round',
       dash: false,
@@ -58,14 +58,14 @@ for (var x = 0; x < window.innerWidth; x += 3) {
 // Texture 2
 var texture2 = new Group();
 rcolor = sampleArray(colors);
-for (var x = 0; x < window.innerWidth; x += 3) {
+for (var x = 0; x < window.innerWidth; x += 2) {
   for (var y = 0; y < window.innerHeight + 60; y += 60) {
     custom_line({
       Point_a: new Point(x, y),
       Point_b: new Point(x + 30, y + 60),
       nsegments: 20,
-      wobble: 20,
-      stroke_width: 0.15,
+      wobble: 25,
+      stroke_width: 0.1,
       stroke_color: rcolor,
       stroke_cap: 'round',
       dash: false,
