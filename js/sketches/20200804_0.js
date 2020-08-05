@@ -1,10 +1,17 @@
 var white = new Color('#f3ecc2');
 var yellow = new Color('#f9d56e');
 var black = new Color('#36454f');
+var red = new Color('#e8505b');
+var green = new Color('#14b1ab');
+
+var colors = [yellow, red, green, white];
+var rcolor;
+
 var elements = [];
 
 // Texture 0
 var texture0 = new Group();
+rcolor = sampleArray(colors);
 for (var x = 0; x < window.innerWidth; x += 3) {
   for (var y = 0; y < window.innerHeight; y += 60) {
     custom_line({
@@ -13,7 +20,7 @@ for (var x = 0; x < window.innerWidth; x += 3) {
       nsegments: 3,
       wobble: 1,
       stroke_width: 0.5,
-      stroke_color: white,
+      stroke_color: rcolor,
       stroke_cap: 'round',
       dash: false,
       parent: texture0,
@@ -23,6 +30,7 @@ for (var x = 0; x < window.innerWidth; x += 3) {
 
 // Texture 1
 var texture1 = new Group();
+rcolor = sampleArray(colors);
 for (var x = 0; x < window.innerWidth; x += 3) {
   for (var y = 0; y < window.innerHeight + 60; y += 60) {
     custom_line({
@@ -31,7 +39,7 @@ for (var x = 0; x < window.innerWidth; x += 3) {
       nsegments: 3,
       wobble: 1,
       stroke_width: 0.5,
-      stroke_color: white,
+      stroke_color: rcolor,
       stroke_cap: 'round',
       dash: false,
       parent: texture1,
@@ -41,6 +49,7 @@ for (var x = 0; x < window.innerWidth; x += 3) {
 
 // Texture 2
 var texture2 = new Group();
+rcolor = sampleArray(colors);
 for (var x = 0; x < window.innerWidth; x += 3) {
   for (var y = 0; y < window.innerHeight + 60; y += 60) {
     custom_line({
@@ -49,7 +58,7 @@ for (var x = 0; x < window.innerWidth; x += 3) {
       nsegments: 3,
       wobble: 1,
       stroke_width: 0.5,
-      stroke_color: white,
+      stroke_color: rcolor,
       stroke_cap: 'round',
       dash: false,
       parent: texture2,
@@ -150,7 +159,8 @@ bg.fillColor = black;
 //   mask = mask.subtract(elements[i]);
 // }
 // mask.strokeColor = white;
-// mask.strokeWidth = 0.5;
+// mask.strokeWidth = 2;
+// mask.opacity = 0.3;
 // mask.fillColor = black;
 // mask.bringToFront();
 
