@@ -3,6 +3,7 @@
 _Short, one-a-day sketches with [Paper.js](http://paperjs.org/)_<br>
 _Running total: 31_
 
+![IMG 20200806_2](./images/20200806_2.png)
 ![IMG 20200806_4](./images/20200806_4.png)
 20200806
 
