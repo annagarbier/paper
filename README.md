@@ -1,6 +1,6 @@
 # Paper
 
-_Short, one-a-day sketches with [Paper.js](http://paperjs.org/)_<br>
+_Short, one-a-day sketches, made with [Paper.js](http://paperjs.org/)_<br>
 _Running total: 31_
 
 ![IMG 20200806_2](./images/20200806_2.png)
