@@ -1,8 +1,12 @@
 # Paper
 
 _Short, one-a-day sketches, made with [Paper.js](http://paperjs.org/)_<br>
-_Running total: 32_
+_Running total: 33_
 
+![IMG 20200807_1](./images/20200807_1.png)
+20200807
+
+<br>
 ![IMG 20200807_0](./images/20200807_0.png)
 20200807
 
